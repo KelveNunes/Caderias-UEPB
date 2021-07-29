@@ -4,9 +4,16 @@
 #Requisitos não Funcionais:
 	Restrições de arquivos ou funções oferecidos pelo sistema, incluindo restrições de time, de processo de desenvolvimeto ou de normas;
 
+##  Internos:	
+
 ##	Requisitos de produto:	
 		Comportamento do software.
 		Ex: Requistos de proteção, rapidas, memoria...
+
+##	Requisitos Organizacionais:
+
+		Da empresa, ou cliente envolvido...
+		/.../
 
 ##	Requisitos Gerais de do Sistema:
 		Tem a ver com as depencias da empresa ou do cliente.	
@@ -21,6 +28,8 @@
 
 ###		Requisitos legais:
 			Devem ser seguidos para que o sistema opere dentro da lei;
+			Normalmente seguem o LGPD;
+
 
 ###		Requistios Éticos:
 		
