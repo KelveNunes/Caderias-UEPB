@@ -12,7 +12,7 @@
 
 ##	Requisitos Organizacionais:
 
-		Da empresa, ou cliente envolvido...
+		Da empresa ou cliente envolvido...
 		/.../
 
 ##	Requisitos Gerais de do Sistema:
