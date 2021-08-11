@@ -1,0 +1,6 @@
+Q = Conjunto finito de estados
+Σ = Alfabeto de entrada
+Δ = Função de trancição
+q0 = Estado inicial
+F = Conjunto de estados de aceitação
+
