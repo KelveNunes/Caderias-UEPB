@@ -3,13 +3,13 @@
 	<automaton>&#13;
 		<!--The list of states.-->&#13;
 		<state id="0" name="q0">&#13;
-			<x>72.0</x>&#13;
-			<y>102.0</y>&#13;
+			<x>179.0</x>&#13;
+			<y>84.0</y>&#13;
 			<initial/>&#13;
 		</state>&#13;
 		<state id="1" name="q1">&#13;
-			<x>188.0</x>&#13;
-			<y>102.0</y>&#13;
+			<x>63.0</x>&#13;
+			<y>192.0</y>&#13;
 			<final/>&#13;
 		</state>&#13;
 		<!--The list of transitions.-->&#13;
