@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cliente {
+public abstract class Cliente {
      private String nome;
      private String endereco;
      private double dividas;
@@ -14,7 +14,6 @@ public class Cliente {
           this.dividas = 0;
           this.cartaoFidelidade = 0;
      }
-
 
      public void cadastrarDivida(double valor){
           this.dividas += valor;
@@ -34,8 +33,7 @@ public class Cliente {
      }
 
      public Cliente clonar() {
-          Cliente cliente = new Cliente();
-          return cliente;
+          return new Cliente(this);
      }
 
      public String getNome() {
@@ -60,9 +58,5 @@ public class Cliente {
 
      public void setEndereco(String endereco) {
           this.endereco = endereco;
-     }
-
-     public void setCartaoFidelidade(int cartaoFidelidade) {
-          this.cartaoFidelidade = cartaoFidelidade;
      }
 }

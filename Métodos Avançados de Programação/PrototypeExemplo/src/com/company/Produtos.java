@@ -15,15 +15,31 @@ public abstract class Produtos {
         return sabor;
     }
 
-    public int getValor() {
-        return valor;
+    public String getTipo() {
+        return tipo;
+    }
+
+    public double getValorCompra() {
+        return valorCompra;
+    }
+
+    public double getValorVenda() {
+        return valorVenda;
     }
 
     public void setSabor(String sabor) {
         this.sabor = sabor;
     }
 
-    public void setValor(int valor) {
-        this.valor = valor;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setValorCompra(double valorCompra) {
+        this.valorCompra = valorCompra;
+    }
+
+    public void setValorVenda(double valorVenda) {
+        this.valorVenda = valorVenda;
     }
 }
