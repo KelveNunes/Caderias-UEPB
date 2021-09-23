@@ -1,11 +1,14 @@
 package com.company;
 
-public abstract class Sorveteria {
+public abstract class Produtos {
 
 
     public String sabor;
-    public int valor;
-    public abstract Sorveteria clonar();
+    public String tipo;
+    public double valorCompra;
+    public double valorVenda;
+
+    public abstract Produtos clonar();
     public abstract void informacoes();
 
     public String getSabor(){
