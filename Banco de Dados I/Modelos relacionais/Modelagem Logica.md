@@ -1,0 +1,5 @@
+ClienteFisico (idCliente, endereco, telefone, nome, cpf)
+ClienteJuridico (idCliente, endereco, telefone, nome,cnpj)
+compra (idCliente, ISMB, dataCompra)
+Livros (ISMB, autor, assunto, quantidade, nomeLivro, IDeditora)
+Editoras (idEditora, nomeGerente, enderecoEditora, telefoneEditora)
