@@ -4,4 +4,4 @@ Aqui eu compatilho as minhas anotações, minhas atividades e processos durante 
   
     Tem alguma duvida?
     
-    Da uma olhada la, pode ser que no overflow não tenha...🤯🤯🤯🤯
+    Da uma olhada la! Pode ser que no overflow não tenha...🤯🤯🤯🤯
