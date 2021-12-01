@@ -1,3 +1,50 @@
+## Introdução do conteudo:Slide 2
+
+	 Bom, vou falar um pouco pra vocês sobre o que vou aprensentar e o que se espera ser alcançado no final da aprentação:
+	 	Como você sabem o capitulo aborda o desenvolvimento ágil de software, vou falar sobre a logica por tras do desenvolvimento ágil, apresentar o manifesto agil(um rolê bem karl Marx da programação) e a diferença entre desenvolvimento ágil e dirigido a planos;
+
+	 	Também vamos conhecer um pouco sobre Extreme programming(xp) e como a pratica se relaciona aos principios do modelo ágil;
+
+	 	Sobre scrun no desenvolvimento de projeto;
+
+	 	E quais as melhores situações para escolher cada um deses metodos.
+
+## Indrodução geral do capitulo:
+
+Rapid development and delivery is now often the most
+important requirement for software systems.
+		
+		Quem pretende seguir pra essa área de desenvolvimento sabe a quantidade de mudanças que um empresa pode sofrer e quão rapido ela pode mudar suas tecnologias, então muitas dessas empresas operam dando mais importancia na velocidade do processo de desenvolvimento e entregas mais rapidas, ja que é praticamente impossivel produzir um conjunto de requisitos que seja estavel e não vá levar a mudanças;
+
+		Não tem como, até mesmo pro proprio cliente, expressar quais requisitos ele vai querer, imaginem  prever como um sistema afetará as práticas de trabalho, como irá interagir com outros sistemas
+		e quais operações do usuário devem ser automatizadas.
+
+Rapid software development.
+		Processos de desenvolvimento de software que planejam especificar completamente os requisitos e, em seguida,
+		projetar, construir e testar o sistema não estão adaptados ao desenvolvimento rápido de software.
+		Então qual seria o cenario ideal, ou pelo menos o mais pratico possivel?
+		INTERCALAR ENTRE ESPECIFICAÇÃO, DESIGN E IMPLEMENTAÇÃO;
+
+		obs: se o software que vc tiver desenvolvendo, for um sistemas críticos de controle de segurança, em que uma análise completa do
+		sistema é essencial, uma abordagem dirigida a planos pode ser a melhor opção, falarei melhor mais a frente...
+
+		O sistema deve ser desenvolvido com uma serie de realeases que vai ser validadada pelas partes interessadas(stakeholders) e claro sempre devemos se especializar em usar IDEs, que são as melhores ferramentas de desenvolvimento(um programador hoje em dia sem uma IDE é como um arquiteto sem skatchUp);
+		
+Dissatisfaction with the overheads involved in software
+design methods of the 1980s and 1990s led to the
+creation of agile methods. These methods:
+
+	Na década de 1980, a IBM introduziu o desenvolvimento incremental e ainda foram apresentadas as linguagens de 4º geração "As linguagens de programação de quarta geração, ou 4GL em sua abreviatura de origem inglesa, são linguagens de programação de alto-nível com objetivos específicos, como o desenvolvimento de softwares comerciais de negócios. Elas permitem ao programador especificar o que deve ser feito visando um resultado imediato"
+
+	então quais foram esses metodos?
+
+	Concentre-se no código ao invés do design
+	São baseados em uma abordagem iterativa para o desenvolvimento de software
+	Destinam-se a entregar software funcional rapidamente e a evoluir isso
+	rapidamente para atender aos requisitos em constante mudança.
+
+	
+
 #Manifesto do desenvolvimento ágil:
 	
 ##	Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a 			fazê-lo. Através desse trabalho, valorizamos mais:
