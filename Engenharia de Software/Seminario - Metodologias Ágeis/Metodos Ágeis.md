@@ -49,7 +49,8 @@ slide 4
 
 	
 
-#Manifesto do desenvolvimento ágil:
+#Manifesto do desenvolvimento ágil: 
+SLIDE 5
 	
 ##	Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a 			fazê-lo. Através desse trabalho, valorizamos mais:
 		Indivíduos e interações do que processos e ferramentas
@@ -58,19 +59,56 @@ slide 4
 		Respostas a mudanças do que seguir um plano
 		Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda
 
+		Com isso surgiram alguns modelos Xp scrum, que eu vou falar jaja, mas tem outros tbm desevnvolvimento adaptativo eee digirido a caracteristicas... 
+
+		Todos tem em comum alguns principios
+
 
 #Modelos ágeis principios:
+SLIDE 6
 	
-	1. Embora a ideia de envolvimento do cliente no processo de desenvolvimento seja atraente, seu sucesso depende
+	1. ENVOLVIMENTO DO CLIENTE: Embora a ideia de envolvimento do cliente no processo de desenvolvimento seja atraente, seu sucesso depende
 	de um cliente disposto e capaz de passar o tempo com a equipe de desenvolvimento, e que possa representar
 	todos os stakeholders do sistema. Frequentemente, os representantes dos clientes estão sujeitos a diversas pressões e não podem participar plenamente do desenvolvimento de software.
-	2. Membros individuais da equipe podem não ter personalidade adequada para o intenso envolvimento que é
+
+	2. ENTREGA INCRMENTAL: Membros individuais da equipe podem não ter personalidade adequada para o intenso envolvimento que é
 	típico dos métodos ágeis e, portanto, não interagem bem com outros membros da equipe.
-	3. Priorizar as mudanças pode ser extremamente difícil, especialmente em sistemas nos quais existem muitos
-	stakeholders. Normalmente, cada stakeholder dá prioridades diferentes para mudanças diferentes.
-	4. Manter a simplicidade exige um trabalho extra. Sob a pressão de cronogramas de entrega, os membros da equipe podem não ter tempo para fazer as simplificações desejáveis.
-	5. Muitas organizações, principalmente as grandes empresas, passaram anos mudando sua cultura para que os
+
+	3.PESSOAS NÃO PROCESSOS: As habilidades da equipe de desenvolvimento devem ser reconhecidas e
+	exploradas. Membros da equipe devem desenvolver suas próprias maneiras de
+	trabalhar, sem processos prescritivos.
+
+	4.ACEITAR MUDANÇAS: Manter a simplicidade exige um trabalho extra. Sob a pressão de cronogramas de entrega, os membros da equipe podem não ter tempo para fazer as simplificações desejáveis.
+
+	5. MANTER TUDO MAIS SIMPLES: Muitas organizações, principalmente as grandes empresas, passaram anos mudando sua cultura para que os
 	processos fossem definidos e seguidos. É difícil para eles mudar de um modelo de trabalho em que os processos são informais e definidos pelas equipes de desenvolvimento.
+
+## QUANDO USAR METODOS AGEIS:
+SLIDE 7
+ONDE ESSES METODOS FUNCIONAM?
+
+É DE SE ESPERAR QUE EM:
+1. O desenvolvimento de produtos, em situações que a empresa existe um software de pequeno/medio porte;
+2. um ambiente onde o cliente é bem engajado e não a tanta regulamentação externa;
+
+E em sistemas de grande porte, pq não funcionam?
+
+onde não ha equipes pequenas ou equeipes que não sejam fortementes vinculadas as tecnologias que seram usadas.
+
+##QUANDO não  USAR METODOS AGEIS:
+SLIDE 8
+Quando for difícil manter o interesse dos clientes que
+estão envolvidos no processo.
+✧ Os membros da equipe podem ser inadequados para o intenso
+envolvimento que caracteriza os métodos ágeis.
+✧ Priorizar mudanças pode ser difícil onde há
+múltiplas partes interessadas.
+✧ Manter a simplicidade requer trabalho extra.
+✧ Os contratos podem ser um problema, assim como outras abordagens para
+desenvolvimento iterativo.
+
+## PQ NÃO USAMOS ESSE DESESNVOLVIMENTO
+
 
 ## quando usar uma abordagem dirigita a planos?
 	
