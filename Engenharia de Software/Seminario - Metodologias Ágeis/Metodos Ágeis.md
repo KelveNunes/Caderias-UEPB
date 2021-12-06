@@ -20,21 +20,23 @@ important requirement for software systems.
 		e quais operações do usuário devem ser automatizadas.
 
 Rapid software development.
+slide 3
 		Processos de desenvolvimento de software que planejam especificar completamente os requisitos e, em seguida,
 		projetar, construir e testar o sistema não estão adaptados ao desenvolvimento rápido de software.
 		Então qual seria o cenario ideal, ou pelo menos o mais pratico possivel?
 		INTERCALAR ENTRE ESPECIFICAÇÃO, DESIGN E IMPLEMENTAÇÃO;
 
-		obs: se o software que vc tiver desenvolvendo, for um sistemas críticos de controle de segurança, em que uma análise completa do
+		obs: se o software que vc tiver desenvolvendo, for um sistemas de segurança, em que uma análise completa do
 		sistema é essencial, uma abordagem dirigida a planos pode ser a melhor opção, falarei melhor mais a frente...
 
 		O sistema deve ser desenvolvido com uma serie de realeases que vai ser validadada pelas partes interessadas(stakeholders) e claro sempre devemos se especializar em usar IDEs, que são as melhores ferramentas de desenvolvimento(um programador hoje em dia sem uma IDE é como um arquiteto sem skatchUp);
 		
 Dissatisfaction with the overheads involved in software
 design methods of the 1980s and 1990s led to the
-creation of agile methods. These methods:
+creation of agile methods. These methods: 
+slide 4
 
-	Na década de 1980, a IBM introduziu o desenvolvimento incremental e ainda foram apresentadas as linguagens de 4º geração "As linguagens de programação de quarta geração, ou 4GL em sua abreviatura de origem inglesa, são linguagens de programação de alto-nível com objetivos específicos, como o desenvolvimento de softwares comerciais de negócios. Elas permitem ao programador especificar o que deve ser feito visando um resultado imediato"
+	nos 80/90, a IBM introduziu o desenvolvimento incremental e ainda foram apresentadas as linguagens de 4º geração "As linguagens de programação de quarta geração, ou 4GL em sua abreviatura de origem inglesa, são linguagens de programação de alto-nível com objetivos específicos, como o desenvolvimento de softwares comerciais de negócios. Elas permitem ao programador especificar o que deve ser feito visando um resultado imediato"
 
 	então quais foram esses metodos?
 
@@ -42,6 +44,8 @@ creation of agile methods. These methods:
 	São baseados em uma abordagem iterativa para o desenvolvimento de software
 	Destinam-se a entregar software funcional rapidamente e a evoluir isso
 	rapidamente para atender aos requisitos em constante mudança.
+
+	Mas o mais importante é a gente lembrar queeee o objetivo é diminuir documentação demais e ser mais facil de incrementar mudanças caso os requisitos mudem.
 
 	
 
