@@ -90,12 +90,13 @@ ONDE ESSES METODOS FUNCIONAM?
 É DE SE ESPERAR QUE EM:
 1. O desenvolvimento de produtos, em situações que a empresa existe um software de pequeno/medio porte;
 2. um ambiente onde o cliente é bem engajado e não a tanta regulamentação externa;
+argumente sobre...
 
 E em sistemas de grande porte, pq não funcionam?
 
 onde não ha equipes pequenas ou equeipes que não sejam fortementes vinculadas as tecnologias que seram usadas.
 
-##QUANDO não  USAR METODOS AGEIS:
+## QUANDO é mais arriscado  USAR METODOS AGEIS?
 SLIDE 8
 Quando for difícil manter o interesse dos clientes que
 estão envolvidos no processo.
@@ -107,10 +108,24 @@ múltiplas partes interessadas.
 ✧ Os contratos podem ser um problema, assim como outras abordagens para
 desenvolvimento iterativo.
 
-## PQ NÃO USAMOS ESSE DESESNVOLVIMENTO
+
+## Vale lembrar que os metodos ágeis pra contruir novos softwares são muito bons, mas para manunteção nem tanto, então o codigo deve dar suporte para futuras manunteções, dai a importancia de um codigo limpo e legivel. 
+slide 9
+
+ Mas pq não são tão eficases assim na manunteção? e isso tbm não quer dizer que não possam ser aplicados, mas pq?
+
+ 	Imaginem um software que dura ha varios anos, a empresa ja passou por varios trocas de funcionarios ou mudanças de tecnologias, mudanças em geral não seram uma oa experiencia caso a equipe original não tenha respeitado o principio da mudança, que podema contecer.
+
+ 	Muitos métodos ágeis coletam requisitos informalmente, de forma incremental, e não desenvolvem um documento coerente de requisitos.
+
+ 	então não podemos esquecer do documento
+	de requisitos do sistema
+
+
 
 
 ## quando usar uma abordagem dirigita a planos?
+slide 10
 	
 	Na verdade, a maioria dos projetos de software inclui práticas das abordagens dirigidas a planos e ágil. Para
 	optar por um equilíbrio entre as abordagens, você precisa responder a uma série de questões técnicas, humanas
