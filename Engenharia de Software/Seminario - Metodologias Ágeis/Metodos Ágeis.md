@@ -109,7 +109,7 @@ múltiplas partes interessadas.
 desenvolvimento iterativo.
 
 
-## Vale lembrar que os metodos ágeis pra contruir novos softwares são muito bons, mas para manunteção nem tanto, então o codigo deve dar suporte para futuras manunteções, dai a importancia de um codigo limpo e legivel. 
+## Vale lembrar que os metodos ágeis pra contruir novos softwares são muito bons, mas(explicar)  tbm tem agumas deficiencias então talvez seja melhor usar uma abordagem misturadapara manunteção nem tanto, então o codigo deve dar suporte para futuras manunteções, dai a importancia de um codigo limpo e legivel. 
 slide 9
 
  Mas pq não são tão eficases assim na manunteção? e isso tbm não quer dizer que não possam ser aplicados, mas pq?
@@ -124,20 +124,22 @@ slide 9
 
 
 
-## quando usar uma abordagem dirigita a planos?
+## Então é aqui que eu vou falar sobre desenvolvimento dirigido a planos e desenvolvimento agil 
+slide 10
+Nesse modelo alem da faze de requisitos uma outra etapa mais pesada acontece que é o planejamento desss requisitos, mas pq isso? justamente em softwares que necessitam que algum paradgmas do modelo agil sejam quebradas, mas que necessariamente sejam softwares grandes ou criticos que necessitam que grandes documentações, muitas vezes é melhor da uma misturada mesmo e desesvolver aplicativos rapido e com clalidade e que ainda tenham uma documentaçao decente
+
+quando usar uma abordagem dirigita a planos?
+e quando usar agil
 slide 10
 	
-	Na verdade, a maioria dos projetos de software inclui práticas das abordagens dirigidas a planos e ágil. Para
+	Atualmente, a maioria dos projetos de software inclui práticas das abordagens dirigidas a planos e ágil. Para
 	optar por um equilíbrio entre as abordagens, você precisa responder a uma série de questões técnicas, humanas
 	e organizacionais:
 	1. É importante ter uma especificação e um projeto muito detalhados antes de passar para a implementação? Se
 	sim, você provavelmente necessita usar uma abordagem dirigida a planos.
-	2. É realista uma estratégia de entrega incremental em que você entrega o software aos clientes e rapidamente
+	2. vc concegue ter um contato com o cliente que vai ter entrega incremental em que você entrega o software aos clientes e rapidamente
 	obtém um feedback? Em caso afirmativo, considere o uso de métodos ágeis.
-	Quão grande é o sistema que está em desenvolvimento? Os métodos ágeis são mais eficazes quando o sistema
-	pode ser desenvolvido com uma pequena equipe colocalizada capaz de se comunicar de maneira informal.
-	Isso pode não ser possível para sistemas de grande porte que exigem equipes de desenvolvimento maiores —
-	nesse caso, uma abordagem dirigida a planos pode ter de ser usada.
+	3.quandes aplicações, uma abordagem dirigida a planos pode ter de ser usada.
 	4. Que tipo de sistema está sendo desenvolvido? Sistemas que exigem uma análise profunda antes da implementação (por exemplo, sistema de tempo real com requisitos de tempo complexos) geralmente demandam
 	um projeto bastante detalhado para atender a essa análise. Nessas circunstâncias, uma abordagem dirigida a
 	planos pode ser a melhor opção.
