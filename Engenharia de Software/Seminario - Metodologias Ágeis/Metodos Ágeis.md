@@ -178,5 +178,87 @@ slide 10 ao 14
 
 
 # Extreme programming 
+slide 15
 
-	Uma pratica de desenvolviento agil que realiza um processo
+	Os desevolvedores junto com o cliente, que nesse modelo deve estar bastante envolvido, ou um representante, criam cartões de história. O que são os cartões de história? 
+		são prerequisitos do sistema que são declarados como realise semanal ou um tempo preEstabelecido entre as partes, pequenas atualizações ou incrementos que vão ser produzidos com agilidade em curto tempo. Esses requisitos ja vão ser apresentados numa forma um pouco mais detalhada.Nesse modelo varias versões podem ser desenvolvidas no mesmo dia, antes de implementar os teste devem ser feitos e o programa só é feito quando as funcionalidades passam nesses testes.
+slide 16,17
+		logo após os desenvolvedore se dividem em pares para o processo de implementação ser mais organizado e as equipes darem o maximo de suporte um ao outro e para evitar muito tempo de trabalho.
+
+		 os envolvidos devem sempre refatorar os codigos para sempre pensando em mudanças futuras onde o codigo possa se adptar a essas diferenças que pode acontecer
+slide 18 e 19
+
+planejamento incrmenteal: Os requisitos são gravados em cartões de historia que serão incluidas no realese e determinadas por suas prioridades de tempo e a equipe divide esses cartões em tarefas;
+
+pequenos realises: um grupo de funcionalidades são desenvolvidas de acordo com as prioridades do negocio, depois com realeses futuros elas podem ser melhoradas;
+
+projeto simples: Cada projeto é realizado para atender ás necessidades atuais e nada mais;
+
+desenvolvimento test-first: usando um framework de teste automatizado para desevolver todos os test da versão antes mesmo da implementação;
+
+refatoração: todos os desenvolvedores devem melhorar o codigo sempre que possivel, para mante-lo limpo e manutenivel;
+
+programação em pares: os desenvolvedores se dividem em pares verificando o trabalho e prestando apoio;
+
+propriedade coletiva: todos trabalham em todas as areas do sistema, assim todos ficam engajados no projeto e podem fazer alterações em qualquer funcionalidade;
+
+integração continua: sempre que uma tarefa é concluida ele é integrada ao sistema geral, mas ela só é incluida se passar em todos os testes;
+
+ritmo sustentavel: é melhor programar só o necessario para reduzir a quantidade de codigo e aumentar a produtividade a medio prazo;
+
+Cliente no local: o cliente deve estar inteiramente envolvido no processo de desenvolvimento ele deve fazer parte da equipe e estar sempre disponivel;
+
+slide 20
+
+o cliente ou representante deve estar sempre prensente, é ele quem vai ditar as prioridades do sistema e da o feedebeck necesario para futuras mudanças, podendo até descartar historia se caso as mudanças sejam relativadas.
+
+slide 21:
+
+
+Kate é uma médica que deseja prescrever medicamentos para um paciente de uma clínica. O prontuário do paciente já está sendo exibido em seu
+computador, assim, ela clica o campo ‘medicação’ e pode selecionar ‘medicação atual’, ‘nova medicação’, ou ‘formulário’.
+Se ela selecionar ‘medicação atual’, o sistema pede que ela verifique a dose. Se ela quiser mudar a dose, ela altera esta e em seguida, confirma a
+prescrição.
+Se ela escolher ‘nova medicação’, o sistema assume que ela sabe qual medicação receitar.
+Ela digita as primeiras letras do nome do medicamento. O sistema exibe uma lista de possíveis fármacos que começam com essas letras. Ela escolhe
+a medicação requerida e o sistema responde, pedindo-lhe para verificar se o medicamento selecionado está correto.
+Ela insere a dose e, em seguida, confirma a prescrição.
+Se ela escolhe ‘formulário’, o sistema exibe uma caixa de busca para o formulário aprovado.
+Ela pode, então, procurar pelo medicamento requerido. Ela seleciona um medicamento e é solicitado que verifique se a medicação está correta. Ela
+insere a dose e, em seguida, confirma a prescrição.
+O sistema sempre verifica se a dose está dentro da faixa permitida. Caso não esteja, Kate é convidada a alterar a dose.
+Após Kate confirmar a prescrição, esta será exibida para verificação. Ela pode escolher ‘OK’ ou ‘Alterar’. Se clicar em ‘OK’, a prescrição fica gravada nos
+bancos de dados da auditoria.
+Se ela clicar em ‘Alterar’, reinicia o processo de ‘Prescrição de Medicamentos’.
+
+slide 22 cartão de task;
+
+slide 23
+outro ponto que vale a pena ressaltar é que os codigos em metodologias ageias deve ser projetado para mudanças então ele sempre deve ser limpo e a pratica da refatoração é bem importante, vc n precisa antecipar mudanças, melhor manter o foco no atual e as mudanças viram a partir dai.
+
+slide 24 
+
+na refatoração os desenvovedores devem sempre estar atentos a melhorias, pois a qualqer realise o projeto pode precisar de melhorias na sua engenharia completa, o que pode levar a muita perda de tempo e obviamente dinheiro.
+
+slide 25
+exemplos de refatoração:
+Reorganização de uma hierarquia de classes para remover duplicatas
+código.
+✧ Arrumando e renomeando atributos e métodos para fazer
+eles são mais fáceis de entender.
+✧ A substituição do código embutido por chamadas para métodos que
+foram incluídos em uma biblioteca de programas.
+
+slide 26 resumo;
+Métodos ágeis são métodos de desenvolvimento incrementais que se concentram em
+desenvolvimento rápido, lançamentos frequentes do software, reduzindo
+sobrecargas de processo e produção de código de alta qualidade. Eles envolvem
+o cliente diretamente no processo de desenvolvimento.
+✧ A decisão de usar uma abordagem ágil ou baseada em planos
+para o desenvolvimento deve depender do tipo de software que está sendo
+desenvolvido, as capacidades da equipe de desenvolvimento e a cultura
+da empresa que está desenvolvendo o sistema.
+✧ A programação extrema é um método ágil bem conhecido que integra
+uma série de boas práticas de programação, como lançamentos frequentes de
+o software, melhoria contínua de software e cliente
+participação na equipe de desenvolvimento.
