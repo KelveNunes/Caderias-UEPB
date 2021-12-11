@@ -130,7 +130,7 @@ Nesse modelo alem da faze de requisitos uma outra etapa mais pesada acontece que
 
 quando usar uma abordagem dirigita a planos?
 e quando usar agil
-slide 10
+slide 10 ao 14
 	
 	Atualmente, a maioria dos projetos de software inclui práticas das abordagens dirigidas a planos e ágil. Para
 	optar por um equilíbrio entre as abordagens, você precisa responder a uma série de questões técnicas, humanas
@@ -169,3 +169,14 @@ slide 10
 	sistema de software executável que atenda às suas necessidades e faça coisas úteis para o usuário individual ou
 	para a organização. Na prática, muitas empresas que afirmam ter usado métodos ágeis adotaram algumas práticas
 	ágeis e integraram-nas em seus processos dirigidos a planos.
+
+	Na realidade, a questão sobre rotular o projeto como dirigido a planos ou ágil não é muito importante. Em
+	última análise, a principal preocupação dos compradores de um sistema de software é se estão comprando um
+	sistema de software executável que atenda às suas necessidades e faça coisas úteis para o usuário individual ou
+	para a organização. Na prática, muitas empresas que afirmam ter usado métodos ágeis adotaram algumas práticas
+	ágeis e integraram-nas em seus processos dirigidos a planos
+
+
+# Extreme programming 
+
+	Uma pratica de desenvolviento agil que realiza um processo
