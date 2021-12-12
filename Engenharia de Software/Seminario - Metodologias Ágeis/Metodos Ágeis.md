@@ -262,3 +262,46 @@ da empresa que está desenvolvendo o sistema.
 uma série de boas práticas de programação, como lançamentos frequentes de
 o software, melhoria contínua de software e cliente
 participação na equipe de desenvolvimento.
+
+slide 27
+
+Uma das maiores diferena de Xp para planos é a forma como os testes são realizados, mas em xp
+os testes tem um prioridade a mais, justamente para evitar erros na versão final do software 
+As principais características dos testes em XP são:
+1. desenvolvimento test-first;
+2. desenvolvimento de teste incremental a partir de cenários;
+3. envolvimento dos usuários no desenvolvimento de testes e validação;
+4. uso de frameworks de testes automatizados
+
+slide 28/29
+uma das principais caracteristicas do XP é essa abordagem, em vez de fazer codigo e depois seus testes fazemos o contrario e ja encontramos varios problemas quando estamos codando justamente por ja termos os testes para ajudar;
+mas pq isso funciona?
+pq nos testes a gente ja pensa nos comportamentos que esse software deve ter ou, nno caso do Xp, da funcionalidade que vc vai incrementar. 
+Não sei se vcs ja ouviram falar em test-lag, que é quando os desevolvedores em outras abordagens controem as ferramentas mais rapido que os testes, o que pode acabar virando uma bola de neve e os testes meio que passarem batidos.
+entao como vai funcionar, como vimos no slide das tarefas, aquele cartão de historia foi dividido em varias tarefas entçao cada teste vai verificar a sua tarefa especifica pq ai o trabalho fica bem separado e livra varios problemas que podem acontecer, ah vale lembrar que o papel do cliente é super importante nessa abordagem, ele quem vai ditar como os testes devem funcionar pq ele quem vai verificar se as funcionalidades atigem as suas necessidades.
+claro que é de se esperar que os desenvolvedores saibam em detalhes a funcionalidade que estão contruindo.
+
+slide 30/32
+Quais os problemas? 
+To falando, falando mas a relação com o cliente nunca vai ser esse mar de rosas kkkk ele ta pagando ne
+ent ele pode só dizer os requisitos e a gente que lute, esse é um dos principais problemas se n o pior 
+dai que chegamos nos testes automatizados, é sempre bom ta a par desses frameworks pq eles são uma mão na roda, ainda mais nesse estilo de desevnvolvimento, como ja tem varias ferrementas no framework os testes ja saem bem mais rapido do papel e os problemas muitas vzs ja são detectados imediatamente.
+
+slide 33
+temos que ter em mente que não necessariamente teremos um codigo todo bonitinho e testadinho algumas coisas podem ocorrer durante a testagem por exemplo:
+	as vzs os teste não atigem todas as exeções ou a equipe acabou pulando algum detalhe ou pode ser dificil quando se trata de telas os teste especificarem qual as interações que essas telas vão ter, isso pode acabar gerando alguns erros tbm. então um conjunto de testes contruido não quer dizer que o sistema vai ficar completo e bem testado na implementação final, então é sempre bom refatorar os BO pra melhorar o codigo
+
+slide 34/35
+como funciona a programação em pares?
+a ideia é que os desenvolvedores façam as tarefas juntos e em pares, e por exemplo eu faço uma tank com lilian e outra com Luiz felipe, depois faço outra com outra pessoa e por ai vai, até rolar um revesamento com toda a equipe, pq ai todo mundo fica a par do que ta rolando no codigo, e claro fica mais facil da equipe encontrar possiveis erros e ajudar na refatoração, esse metodo parte do ponto de vista de que duas pessoas trabalhando juntas é melhor que uma sózinha.
+
+slide 36
+das vantagens:
+responsabilidade coletiva: o erro n foi só meu ou de tal pessoa, todos trabalhamos juntos e erramos juntos;
+revisão: no pelo menos uma pessoa vai sempre revisar seu codigo, o que leva a um processo de revisão muito mais detalhado de possiveis erros do sistema.
+refatoração: uma das maiores vantagens dessa pratica, pq a longo prazo melhora bastante o codigo e como eu falei antes a gente precisa pensar na manunteção ja que a documentação é mais escarsa.
+
+minahs considerações sobre programação em pares...
+
+
+
