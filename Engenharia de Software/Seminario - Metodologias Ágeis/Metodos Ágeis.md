@@ -140,9 +140,6 @@ slide 10 ao 14
 	2. vc concegue ter um contato com o cliente que vai ter entrega incremental em que você entrega o software aos clientes e rapidamente
 	obtém um feedback? Em caso afirmativo, considere o uso de métodos ágeis.
 	3.quandes aplicações, uma abordagem dirigida a planos pode ter de ser usada.
-	4. Que tipo de sistema está sendo desenvolvido? Sistemas que exigem uma análise profunda antes da implementação (por exemplo, sistema de tempo real com requisitos de tempo complexos) geralmente demandam
-	um projeto bastante detalhado para atender a essa análise. Nessas circunstâncias, uma abordagem dirigida a
-	planos pode ser a melhor opção.
 	5. Qual é o tempo de vida esperado do sistema? Sistemas de vida-longa podem exigir mais da documentação de
 	projeto, a fim de comunicar para a equipe de apoio as intenções originais dos desenvolvedores do sistema. No
 	entanto, os defensores dos métodos ágeis argumentam, corretamente, que a documentação não é constantemente atualizada e não é de muita utilidade para a manutenção do sistema a longo prazo.
@@ -293,7 +290,7 @@ temos que ter em mente que não necessariamente teremos um codigo todo bonitinho
 
 slide 34/35
 como funciona a programação em pares?
-a ideia é que os desenvolvedores façam as tarefas juntos e em pares, e por exemplo eu faço uma tank com lilian e outra com Luiz felipe, depois faço outra com outra pessoa e por ai vai, até rolar um revesamento com toda a equipe, pq ai todo mundo fica a par do que ta rolando no codigo, e claro fica mais facil da equipe encontrar possiveis erros e ajudar na refatoração, esse metodo parte do ponto de vista de que duas pessoas trabalhando juntas é melhor que uma sózinha.
+a ideia é que os desenvolvedores façam as tarefas juntos e em pares, e por exemplo eu faço uma task com lilian e outra com Luiz felipe, depois faço outra com outra pessoa e por ai vai, até rolar um revesamento com toda a equipe, pq ai todo mundo fica a par do que ta rolando no codigo, e claro fica mais facil da equipe encontrar possiveis erros e ajudar na refatoração, esse metodo parte do ponto de vista de que duas pessoas trabalhando juntas é melhor que uma sózinha.
 
 slide 36
 das vantagens:
@@ -301,7 +298,143 @@ responsabilidade coletiva: o erro n foi só meu ou de tal pessoa, todos trabalha
 revisão: no pelo menos uma pessoa vai sempre revisar seu codigo, o que leva a um processo de revisão muito mais detalhado de possiveis erros do sistema.
 refatoração: uma das maiores vantagens dessa pratica, pq a longo prazo melhora bastante o codigo e como eu falei antes a gente precisa pensar na manunteção ja que a documentação é mais escarsa.
 
-minahs considerações sobre programação em pares...
 
+
+##gerenciamento agil de projetos:
+slide 37
+	
+	o gerenciadores de projeto precisão ter foco no tempo e no orçamento para que tudo funcione coretamente. Na abordagem dirigida a planos esse processo pode ser feito onde gerente faz um plano dizendo tudo que se espera do software e o quando deve ser entregue as ferramentas que deve ser usadas, mas para o desenvolvimento agil isso não é tao adequado, pq? 
+
+	o desenvolvimento incremental das abordagens ageis requer um metodo diferente de gerenciamento:
+
+## scrum 
+slide 38/39
+
+no scrum alem de ser, obviamennte, um modelo de desenvolvimeto ele é mais focado em seu gerenciamento
+
+como funciona?
+
+são três fazes,
+
+na primeira: devem ser estabelidos quais os objetivos do projeto e quais as arquiteturas serão usadas pela equipe...
+
+na segunda: na segunda  gente tem os sprints que são ciclos que devem ser respeitados para o melhor aproveitamento da equipe e do projeto...
+
+na terceira: A fase de encerramento do projeto encerra o projeto, conclui
+documentação necessária, como quadros de ajuda do sistema e usuário
+manuais e avalia as lições aprendidas com o projeto;
+
+Planejamento
+geral e projeto
+de arquitetura
+
+Avaliar Selecionar
+Revisar Desenvolve
+	
+Encerramento
+do projeto
+
+slide 40/41/42/43: sprint
+
+a segunda fase talvez seja a mais importante, que são os sprints. Como no xp que tem essa entrega incremental o sprint funciona da mesma forma, na fase de avaliação fazemos o backlog ou a lista do que vamos ter que fazer durante o projeto alem de ser a fase onde o cliente pode dizer o que ele quer como ele quer. Na fase de seleção o cliente diz o que deve ser priorizado no sprint, ou seja ele vai dizer o que é mais importante de ser priorizado no projeto. Depois de decidido vamo a fase de desenvolvimento em si, onde vamos precisar de reuniões diarias pra ter uma valiação de como anda o sprint(importante ressaltar que todos os membros da equipe devem participar) nessa etapa o cliente ja não esta mais envolvido, ai que entra o scrum-master que vai ser o cara que vai organizar e ser o melhor meio de compartilhamento e comunicação de informações com a equipe. 
+
+por fim o trabalho é entregue ao cliente e começa um novo sprint.
+
+ent vcs percebem que a inteção é que todo mundo possa meio que gerenciar junto
+o scrum master não necesasriamente o gerenciador ele se comporta mais como um organizador para que tudo saia como previsto, mas cada membro da equipe tem bastante autonomia
+
+vantagens:
+1. O produto é decomposto em um conjunto de partes gerenciáveis e compreensíveis.
+2. Requisitos instáveis não atrasam o progresso.
+3. Toda a equipe tem visão de tudo, e, consequentemente, a comunicação da equipe é melhorada.
+4. Os clientes veem a entrega de incrementos dentro do prazo e recebem feedback sobre como o produto
+funciona.
+5. Estabelece-se confiança entre clientes e desenvolvedores e cria-se uma cultura positiva, na qual todo mundo espera que o projeto tenha êxito
+
+ahh vale lembrar que o scrum foi projetado pra reunioes diarias e que isso pode n acontecer da forma que a nossa area funciona hoje em dia...
+
+slide 44:
+## Escalamento de métodos ágeis
+e os sistemas de grande porte?
+
+sistemas de grande porte podem ser desenvolvidos usando modelos ageis, o problema é que é muito difici usar um unico modelo em uma equipe de muitas pessoas as vzs espalhadas pr varias localidades do mundo...
+
+slide: 45/46	
+1. Sistemas de grande porte geralmente são coleções de sistemas separados que se comunicam, nos quais equipes separadas desenvolvem cada um dos sistemas. Frequentemente, essas equipes estão trabalhando em lugares diferentes e, por vezes, em diferentes fusos horários. É praticamente impossível que cada equipe tenha
+uma visão de todo o sistema. Consequentemente, suas prioridades costumam ser voltadas para completar sua
+parte do sistema, sem levar em conta questões mais amplas do sistema como um todo.
+2. Sistemas de grande porte são ‘brownfield systems’ (HOPKINS e JENKINS, 2008), isto é, incluem e interagem com
+inúmeros sistemas existentes. Muitos dos requisitos do sistema estão preocupados com essa interação; assim,
+realmente não se prestam à flexibilidade e desenvolvimento incremental. Questões políticas também podem
+ser importantes aqui. Muitas vezes, a solução mais fácil para um problema é mudar um sistema em vigor. no
+entanto, isso requer uma negociação com os gerentes do sistema para convencê-los de que as mudanças
+podem ser implementadas sem risco para a operação do sistema.
+3. Sempre que vários sistemas estão integrados para criar um único, uma fração significativa do desenvolvimento preocupa-se com a configuração do sistema e não com o desenvolvimento do código original. Isso
+não é necessariamente compatível com o desenvolvimento incremental e com a integração frequente de
+sistemas.
+4. Sistemas de grande porte e seus processos de desenvolvimento são frequentemente restringidos pelas regras
+externas e regulamentos que limitam o desenvolvimento, que exigem certos tipos de documentação a ser
+produzida etc.
+5. Sistemas de grande porte têm um longo tempo de aquisição e desenvolvimento. É difícil manter equipes
+coerentes que saibam sobre o sistema durante esse período, pois as pessoas, inevitavelmente, deslocam-se
+para outros trabalhos e projetos.
+6. Sistemas de grande porte geralmente têm um conjunto diverso de stakeholders. Por exemplo, enfermeiros e
+administradores podem ser os usuários finais de um sistema médico, mas o pessoal médico sênior, gerentes de
+hospital etc. também são stakeholders do sistema
+slide 47
+A solução para usar os metodos ageis nesse tipo de projeto é escalonalos e isso pode ser dividido em duas pespctivas:
+
+1. Perspectiva ‘scaling up’, relacionada ao uso desses métodos para desenvolver sistemas de software de grande porte que não podem ser desenvolvidos por uma equipe pequena.
+
+
+2. Perspectiva ‘scaling out’, relacionada com a forma como os métodos ágeis podem ser introduzidos em uma
+grande organização com muitos anos de experiência em desenvolvimento de software.
+
+mas para isso funcionar precisamos manter aos maximos os fundamentos dos metodos ageis, mesmo que usando varios juntos.]
+
+slide 48
+## scaling up:
+Para o desenvolvimento de grandes sistemas, não é possível focar apenas
+no código do sistema. Você precisa fazer mais na frente
+projeto e documentação do sistema
+✧ Mecanismos de comunicação entre equipes devem ser projetados
+e usado. Isso deve envolver telefone e vídeo normais
+conferências entre os membros da equipe e freqüentes, curtas
+reuniões eletrônicas onde as equipes se atualizam sobre
+progresso.
+✧ Integração contínua, onde todo o sistema é construído a cada
+vez que qualquer desenvolvedor verifica uma mudança, é praticamente
+impossível. No entanto, é essencial manter
+compilações de sistema e lançamentos regulares do sistema.
+
+slide 49
+## scaling out:
+
+Gerentes de projeto que não têm experiência com métodos ágeis
+pode estar relutante em aceitar o risco de uma nova abordagem.
+✧ Grandes organizações costumam ter procedimentos de qualidade e
+padrões que todos os projetos devem seguir e, porque
+de sua natureza burocrática, estes são susceptíveis de ser incompatíveis
+com métodos ágeis.
+✧ Os métodos ágeis parecem funcionar melhor quando os membros da equipe têm um
+nível de habilidade relativamente alto. No entanto, em grandes organizações,
+é provável que haja uma ampla gama de aptidões e aptidões.
+✧ Pode haver resistência cultural aos métodos ágeis, especialmente em
+aquelas organizações que têm uma longa história de uso
+processos convencionais de engenharia de sistemas.
+
+slide 50:
+# pontos chaves:
+
+Um ponto forte particular da programação extrema é o
+desenvolvimento de testes automatizados antes de um programa
+recurso é criado. Todos os testes devem ser executados com sucesso
+quando um incremento é integrado a um sistema.
+✧ O método Scrum é um método ágil que fornece um
+estrutura de gerenciamento de projetos. É centrado em torno de um conjunto
+de sprints, que são períodos fixos quando um sistema
+incremento é desenvolvido.
+✧ É difícil dimensionar métodos ágeis para grandes sistemas. Grande
+os sistemas precisam de um projeto inicial e alguma documentação.
 
 
