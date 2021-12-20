@@ -1,13 +1,17 @@
+# tema:
+	slide 1
 ## Introdução do conteudo:Slide 2
-
-	 Bom, vou falar um pouco pra vocês sobre o que vou aprensentar e o que se espera ser alcançado no final da aprentação:
+	
+	então gente, metodos ageis ne?
+	 vou falar um pouco pra vocês sobre o que vou aprensentar e o que se espera ser alcançado no final da aprentação:
 	 	Como você sabem o capitulo aborda o desenvolvimento ágil de software, vou falar sobre a logica por tras do desenvolvimento ágil, apresentar o manifesto agil(um rolê bem karl Marx da programação) e a diferença entre desenvolvimento ágil e dirigido a planos;
 
 	 	Também vamos conhecer um pouco sobre Extreme programming(xp) e como a pratica se relaciona aos principios do modelo ágil;
 
-	 	Sobre scrun no desenvolvimento de projeto;
+	 	Sobre scrun no desenvolvimento de projeto;gerenciamento
 
 	 	E quais as melhores situações para escolher cada um deses metodos.
+	 	Escalamento de métodos ágeis
 
 ## Indrodução geral do capitulo:
 
@@ -302,46 +306,48 @@ refatoração: uma das maiores vantagens dessa pratica, pq a longo prazo melhora
 
 ##gerenciamento agil de projetos:
 slide 37
+
 	
 	o gerenciadores de projeto precisão ter foco no tempo e no orçamento para que tudo funcione coretamente. Na abordagem dirigida a planos esse processo pode ser feito onde gerente faz um plano dizendo tudo que se espera do software e o quando deve ser entregue as ferramentas que deve ser usadas, mas para o desenvolvimento agil isso não é tao adequado, pq? 
 
 	o desenvolvimento incremental das abordagens ageis requer um metodo diferente de gerenciamento:
 
-## scrum 
+# scrum 
 slide 38/39
 
-no scrum alem de ser, obviamennte, um modelo de desenvolvimeto ele é mais focado em seu gerenciamento
+##papeis-
+	Product owner :responsael pela visão do produto, pode ser um representante do cliente. gestor de baglogs, priorisa as necessidades .
 
-como funciona?
+	scrum master: lider do trabalho da equipe, é ele quem vai ditar como o desenvolvimento deve ser seguido e garantir que  processo siga de acordo com o planejado, ou seja ele responsavel por fazer o clico seguir
 
-são três fazes,
+	time de desnvolvimento: grupo de pessoas envolvida em todos os processos do desenvolvimento o ideal é que a equipe não seja tão grande para uma melhor comunicação
+	(o product owner e o scrum master geralemente n fazem parte do time de desenvolvimento)
 
-na primeira: devem ser estabelidos quais os objetivos do projeto e quais as arquiteturas serão usadas pela equipe...
+##artefatos - 
+	baglogs : lista de requisitos da aplicação. o product owner é o responsavel por essa lista
+	o baglog é dividido em dois baglogs
+	baglog do produto: vai ser justamente os requisitos em si o que deve ser feito para obtelos
+	sprint baglog é o que deve ser feito para finalização de cada sprint, ou seja de cada implentação.
+	Aqui é onde criamos as tarefas que seram desenvolvidas durante o sprint
 
-na segunda: na segunda  gente tem os sprints que são ciclos que devem ser respeitados para o melhor aproveitamento da equipe e do projeto...
+	cartões de historia - uma historia literalmente deve ser contada sobre o produto
 
-na terceira: A fase de encerramento do projeto encerra o projeto, conclui
-documentação necessária, como quadros de ajuda do sistema e usuário
-manuais e avalia as lições aprendidas com o projeto;
+	burndown grafico do produto e do sprint
 
-Planejamento
-geral e projeto
-de arquitetura
+##eventos -
 
-Avaliar Selecionar
-Revisar Desenvolve
-	
-Encerramento
-do projeto
+sprint: 
 
-slide 40/41/42/43: sprint
+sprint baclog conjunto de historias que vai ser denvolvido no sprint;
+sprint planing - reunião inicial para definir o planejamento do que deve ser alcançado durante  sprint baclog e o que deve ser entre no fim do sprint
 
-a segunda fase talvez seja a mais importante, que são os sprints. Como no xp que tem essa entrega incremental o sprint funciona da mesma forma, na fase de avaliação fazemos o backlog ou a lista do que vamos ter que fazer durante o projeto alem de ser a fase onde o cliente pode dizer o que ele quer como ele quer. Na fase de seleção o cliente diz o que deve ser priorizado no sprint, ou seja ele vai dizer o que é mais importante de ser priorizado no projeto. Depois de decidido vamo a fase de desenvolvimento em si, onde vamos precisar de reuniões diarias pra ter uma valiação de como anda o sprint(importante ressaltar que todos os membros da equipe devem participar) nessa etapa o cliente ja não esta mais envolvido, ai que entra o scrum-master que vai ser o cara que vai organizar e ser o melhor meio de compartilhamento e comunicação de informações com a equipe. 
+daile scrum - planejamento diario na forma de reuniões uqe vai decidir o que deve ser feito em um curto periodo, geralmente de 24 horas
 
-por fim o trabalho é entregue ao cliente e começa um novo sprint.
+review do sprint  - realizado no ultimo dia de spring é quando mostramos o incremento que foi criado ao product owner ou as os stakeholders envolvidos; no fim da sprint ja é decidido o que deve entrar no proximo baclog e quais os proximos passos a seguir
 
-ent vcs percebem que a inteção é que todo mundo possa meio que gerenciar junto
-o scrum master não necesasriamente o gerenciador ele se comporta mais como um organizador para que tudo saia como previsto, mas cada membro da equipe tem bastante autonomia
+por fim a equipe realiza uma retrospectiva do sprint para revisar possiveis melhorias da equipe no ambito de tabalho e aplicalas no proximo sprint
+
+
 
 vantagens:
 1. O produto é decomposto em um conjunto de partes gerenciáveis e compreensíveis.
@@ -351,7 +357,7 @@ vantagens:
 funciona.
 5. Estabelece-se confiança entre clientes e desenvolvedores e cria-se uma cultura positiva, na qual todo mundo espera que o projeto tenha êxito
 
-ahh vale lembrar que o scrum foi projetado pra reunioes diarias e que isso pode n acontecer da forma que a nossa area funciona hoje em dia...
+
 
 slide 44:
 ## Escalamento de métodos ágeis
@@ -381,6 +387,7 @@ para outros trabalhos e projetos.
 6. Sistemas de grande porte geralmente têm um conjunto diverso de stakeholders. Por exemplo, enfermeiros e
 administradores podem ser os usuários finais de um sistema médico, mas o pessoal médico sênior, gerentes de
 hospital etc. também são stakeholders do sistema
+
 slide 47
 A solução para usar os metodos ageis nesse tipo de projeto é escalonalos e isso pode ser dividido em duas pespctivas:
 
